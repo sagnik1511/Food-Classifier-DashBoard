@@ -6,3 +6,6 @@ wandb
 train
 test
 validation
+test.py
+*png
+checkpoint*

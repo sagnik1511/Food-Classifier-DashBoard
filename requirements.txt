@@ -1,0 +1,8 @@
+fastapi
+numpy
+pandas
+python-multipart
+sklearn
+torch-tutor
+torch
+torchvision
