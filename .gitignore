@@ -2,6 +2,7 @@ __pycache__/
 food-env
 wandb
 *.pt
+*.csv
 train
 test
 validation
