@@ -1,0 +1,15 @@
+{
+    "name": "food_ds_base",
+    "path": {
+        "root_dir": "dataset/food_dataset",
+        "train": "train.csv",
+        "validation": "validation.csv",
+        "eval": "test.csv"
+    },
+    "data_shape":{
+        "h": 224,
+        "w": 224,
+        "channels": 224
+    },
+    "num_classes": 11
+}

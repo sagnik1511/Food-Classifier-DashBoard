@@ -1,0 +1,7 @@
+__pycache__/
+food-env
+wandb
+*.pt
+train
+test
+validation

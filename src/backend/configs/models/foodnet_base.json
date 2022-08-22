@@ -1,0 +1,57 @@
+{
+    "name": "foodnet_base",
+    "architecture": {
+        "input_size": [3, 224, 224],
+        "layers": {
+            "conv1": {
+                "inC": 3,
+                "outC": 32,
+                "kSize": 7,
+                "stride": 2,
+                "eps": 0.1
+            },
+            "conv2": {
+                "inC": 32,
+                "outC": 64,
+                "kSize": 5,
+                "stride": 2,
+                "eps": 0.2
+            },
+            "conv3": {
+                "inC": 64,
+                "outC": 64,
+                "kSize": 3,
+                "stride": 2,
+                "eps": 0.2
+            },
+            "dropout1": 0.1,
+            "conv4": {
+                "inC": 64,
+                "outC": 64,
+                "kSize": 3,
+                "stride": 2,
+                "eps": 0.1
+            },
+            "conv5": {
+                "inC": 64,
+                "outC": 128,
+                "kSize": 3,
+                "stride": 2,
+                "eps": 0.1
+            },
+            "flatten": {},
+            "lin1": {
+                "inC": 3200,
+                "outC": 1024
+            },
+            "lin2": {
+                "inC": 1024,
+                "outC": 1024
+            },
+            "output": {
+                "inC": 1024,
+                "outC": -1
+            }
+        }
+    }
+}
