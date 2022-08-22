@@ -1,6 +1,5 @@
-import json
-from torchsummary import summary
 import torch.nn as nn
+from torchsummary import summary
 from .base_classes import Conv, Lin
 
 
